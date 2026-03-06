@@ -69,6 +69,22 @@
     background-color: gold !important;
     /* Change the color of the active indicator */
 }
+
 .icon-space {
-    margin-right: 4px; /* Adjust the value as needed */
+    margin-right: 4px;
+    /* Adjust the value as needed */
+}
+
+/* make sure hero section text stays on top of the dimming overlay */
+.hero-wrap .overlay {
+    /* keep overlay below content */
+    z-index: 1;
+}
+
+/* position text elements above the overlay so they remain bright */
+.hero-wrap .text,
+.hero-wrap .slider-text,
+.hero-wrap .container {
+    position: relative;
+    z-index: 2;
 }
