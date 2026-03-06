@@ -88,3 +88,23 @@
     position: relative;
     z-index: 2;
 }
+
+
+.hero-wrap-2 {
+    height: 400px !important;
+    min-height: 400px;
+}
+
+.hero-wrap.hero-wrap-2 {
+    height: 400px !important;
+    min-height: 400px !important;
+}
+
+.hero-wrap.hero-wrap-2 .slider-text {
+    height: 400px !important;
+}
+
+.hero-wrap.hero-wrap-2 .container,
+.hero-wrap.hero-wrap-2 .row {
+    height: 100%;
+}
