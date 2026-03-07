@@ -22,7 +22,7 @@ Service: $service
 Message:
 $message
 ";
-    $headers = "From: goldenbuzzer-solarpower.com.ph\r\n";
+    $headers = "From: customerservice@goldenbuzzer-solarpower.com.ph\r\n";
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Cc: $email\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
