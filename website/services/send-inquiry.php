@@ -44,10 +44,19 @@ Website Inquiry System
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
+
+    header('Content-Type: application/json');
+
     if (mail($to, $subject, $body, $headers)) {
-        echo "Inquiry sent successfully!";
+        echo json_encode([
+            "status" => "success",
+            "message" => "Inquiry sent successfully! We will contact you shortly."
+        ]);
     } else {
-        echo "Failed to send inquiry.";
+        echo json_encode([
+            "status" => "error",
+            "message" => "Failed to send inquiry. Please try again later."
+        ]);
     }
 
 }

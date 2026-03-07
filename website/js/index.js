@@ -128,12 +128,43 @@ $("#inquiryForm").submit(function (e) {
         url: "services/send-inquiry.php",
         type: "POST",
         data: $(this).serialize(),
+        dataType: "json",
+
         success: function (response) {
-            alert(response);
-            $("#inquiryForm")[0].reset();
+
+            if (response.status === "success") {
+
+                $("#form-message").html(`
+                    <div class="alert alert-success">
+                        ✅ ${response.message}
+                    </div>
+                `).fadeIn();
+
+                $("#inquiryForm")[0].reset();
+
+            } else {
+
+                $("#form-message").html(`
+                    <div class="alert alert-danger">
+                        ❌ ${response.message}
+                    </div>
+                `).fadeIn();
+
+            }
+
+            setTimeout(function () {
+                $("#form-message").fadeOut();
+            }, 5000);
         },
+
         error: function () {
-            alert("Something went wrong.");
+
+            $("#form-message").html(`
+                <div class="alert alert-danger">
+                    ❌ Unable to connect to the server. Please try again later.
+                </div>
+            `).fadeIn();
+
         }
     });
 
