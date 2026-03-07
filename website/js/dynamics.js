@@ -6,6 +6,13 @@ import { NAV_ITEMS, company, FOOTER } from "./constant.js";
 document.title = company;
 function loadNavbar() {
 
+  // Set favicon dynamically
+  const favicon = document.createElement('link');
+  favicon.rel = 'icon';
+  favicon.href = 'images/logo.png';
+  favicon.type = 'image/png';
+  document.head.appendChild(favicon);
+
   let navLinks = NAV_ITEMS.map(item => {
     return `
       <li class="nav-item ${item.active ? "active" : ""}">

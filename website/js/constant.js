@@ -292,4 +292,19 @@ const COMPANY_OVERVIEW = [
         description: "To become the most trusted and leading hybrid solar engineering company in the Philippines, recognized for excellence, innovation, and customer satisfaction."
     }
 ];
-export { company, companyShort, items_company, NAV_ITEMS, FOOTER, PARTNERS, EXECUTIVES, EXECUTIVE_DETAILS, ABOUT_US, COMPANY_OVERVIEW };
+
+
+const CONTACT_DETAILS = {
+    image: "images/gbimages/office.jpeg",
+
+    address: "2nd Flr. Unit D. Golden Buzzer Building E. Monserrate corner J. Cabarrus St. BF Homes Parañaque 1720 City Metro Manila.",
+
+    email: "inquiries@goldenbuzzer-solarpower.com.ph",
+
+    mobile: "0920 512 7938",
+
+    mapEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15454.437686420968!2d121.019725152471!3d14.449658514985058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cf558801da87%3A0x28714b15eac3c7e9!2sGolden%20Buzzer%20Solar%20Power%20Engineering%20Services!5e0!3m2!1sen!2sph!4v1772807571134!5m2!1sen!2sph`
+};
+
+
+export { company, companyShort, items_company, NAV_ITEMS, FOOTER, PARTNERS, EXECUTIVES, EXECUTIVE_DETAILS, ABOUT_US, COMPANY_OVERVIEW, CONTACT_DETAILS };
