@@ -307,4 +307,100 @@ const CONTACT_DETAILS = {
 };
 
 
-export { company, companyShort, items_company, NAV_ITEMS, FOOTER, PARTNERS, EXECUTIVES, EXECUTIVE_DETAILS, ABOUT_US, COMPANY_OVERVIEW, CONTACT_DETAILS };
+const SERVICES_DETAILS = [
+    {
+        title: "Solar System Installation",
+        type: "list",
+        content: [
+            "Hybrid Solar Systems",
+            "Grid-Tied Solar Systems",
+            "Off-Grid Solar Systems"
+        ]
+    },
+
+    {
+        title: "Engineering & Technical Services",
+        type: "list",
+        content: [
+            "Solar System Design & Planning",
+            "Load Analysis & Energy Audit",
+            "Site Inspection & Feasibility Study",
+            "Electrical Works & System Integration"
+        ]
+    },
+
+    {
+        title: "Maintenance & Support",
+        type: "list",
+        content: [
+            "Preventive Maintenance",
+            "System Monitoring",
+            "Troubleshooting & Repairs",
+            "System Upgrades & Optimization"
+        ]
+    },
+
+    {
+        title: "System Design & Load Analysis",
+        type: "text",
+        content: `Before we recommend anything, we analyze your actual power usage,
+including appliance loads, surge behavior, roof layout, and future
+expansion needs. This prevents undersized systems, battery overloads,
+and false expectations.`
+    },
+
+    {
+        title: "Installation & System Integration",
+        type: "text",
+        content: `We handle complete system installation, including proper inverter
+and battery sizing and configuration, grounding, and commissioning.
+This ensures the system performs reliably under real operating
+conditions—not just on paper.`
+    },
+
+    {
+        title: "Energy Management & Back-up Optimization",
+        type: "text",
+        content: `Hybrid systems are not plug-and-play. We configure battery charging
+behavior, load prioritization, backup circuits, and inverter settings
+to ensure the system delivers power where it matters most during
+outages, peak usage, and daily operation.`
+    },
+
+    {
+        title: "After-Sales Support & Maintenance",
+        type: "text",
+        content: `Solar systems are not “set and forget”. We provide scheduled
+inspections, troubleshooting support, realistic guidance on equipment
+lifespan, and future replacement planning.`
+    },
+
+    {
+        title: "Add-On Services",
+        type: "text",
+        content: `Battery capacity expansion and system scalability planning.
+Backup load optimization and critical load reconfiguration.
+Post-installation system upgrades and retrofits.`
+    },
+
+    {
+        title: "Structural Construction for Solar Readiness",
+        type: "text",
+        content: `When an existing roof cannot accommodate system requirements,
+and the client opts to create additional roof space, our team provides
+layout planning and structural construction to ensure the new
+structure is properly designed for solar installation, load-bearing
+requirements, and long-term system reliability.`
+    }
+];
+
+const PACKAGE_IMAGES = [
+    { image: "images/gbimages/packages/1.png" },
+    { image: "images/gbimages/packages/2.png" },
+    { image: "images/gbimages/packages/3.png" },
+    { image: "images/gbimages/packages/4.png" },
+    { image: "images/gbimages/packages/5.png" },
+    { image: "images/gbimages/packages/6.png" }
+];
+
+export { company, companyShort, items_company, NAV_ITEMS, FOOTER, PARTNERS, EXECUTIVES, EXECUTIVE_DETAILS, ABOUT_US, COMPANY_OVERVIEW, CONTACT_DETAILS, SERVICES_DETAILS, PACKAGE_IMAGES };

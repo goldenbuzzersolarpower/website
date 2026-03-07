@@ -108,3 +108,12 @@
 .hero-wrap.hero-wrap-2 .row {
     height: 100%;
 }
+
+.package .img {
+    transition: transform .3s ease;
+    border-radius: 10px;
+}
+
+.package:hover .img {
+    transform: scale(1.05);
+}
