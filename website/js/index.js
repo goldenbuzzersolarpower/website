@@ -118,3 +118,23 @@ COMPANY_OVERVIEW.forEach(item => {
     </div>
   `;
 });
+
+
+$("#inquiryForm").submit(function (e) {
+
+    e.preventDefault();
+
+    $.ajax({
+        url: "services/send-inquiry.php",
+        type: "POST",
+        data: $(this).serialize(),
+        success: function (response) {
+            alert(response);
+            $("#inquiryForm")[0].reset();
+        },
+        error: function () {
+            alert("Something went wrong.");
+        }
+    });
+
+});

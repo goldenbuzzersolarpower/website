@@ -125,47 +125,52 @@
 			<h3 class="vr">Call Us: 0920-512-7938</h3>
 			<div class="row justify-content-center">
 				<div class="col-md-10 ftco-animate">
-					<form action="#" class="appointment-form">
+					<form id="inquiryForm" class="appointment-form">
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="form-group">
-									<input type="text" class="form-control" id="appointment_name" placeholder="Name">
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="form-group">
-									<input type="text" class="form-control" id="appointment_email"
-										placeholder="Email Address">
+									<input type="text" class="form-control" name="name" placeholder="Name" required>
 								</div>
 							</div>
 
 							<div class="col-sm-6">
 								<div class="form-group">
-									<div class="select-wrap">
-										<div class="icon"><span class="ion-ios-arrow-down"></span></div>
-										<select name="" id="" class="form-control">
-											<option value="">System Design & Load Analysis</option>
-											<option value="">Installation & System Integration</option>
-											<option value="">Energy Management & Back-up Optimization</option>
-											<option value="">After-Sales Support & Maintenance</option>
-											<option value="">Add-on Services</option>
-										</select>
-									</div>
+									<input type="email" class="form-control" name="email" placeholder="Email Address"
+										required>
 								</div>
 							</div>
+
 							<div class="col-sm-6">
 								<div class="form-group">
-									<input type="text" class="form-control" id="phone"
+									<select name="service" class="form-control">
+										<option value="System Design & Load Analysis">System Design & Load Analysis
+										</option>
+										<option value="Installation & System Integration">Installation & System
+											Integration</option>
+										<option value="Energy Management & Back-up Optimization">Energy Management &
+											Back-up Optimization</option>
+										<option value="After-Sales Support & Maintenance">After-Sales Support &
+											Maintenance</option>
+										<option value="Add-on Services">Add-on Services</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="col-sm-6">
+								<div class="form-group">
+									<input type="text" class="form-control" name="phone"
 										placeholder="Phone / Mobile Number">
 								</div>
 							</div>
+
 							<div class="col-md-12">
 								<div class="form-group">
-									<textarea name="" id="" cols="30" rows="7" class="form-control"
+									<textarea name="message" rows="7" class="form-control"
 										placeholder="Messages"></textarea>
 								</div>
 							</div>
 						</div>
+
 						<div class="form-group">
 							<input type="submit" value="Submit Inquiry" class="btn btn-primary">
 						</div>
