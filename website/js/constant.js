@@ -20,13 +20,11 @@ const FOOTER = {
         "Golden Buzzer Solar is supported by an engineering team with over 10 years of hands-on experience in the solar industry.",
 
     social: [
-        { icon: "icon-twitter", link: "#" },
-        { icon: "icon-facebook", link: "#" },
-        { icon: "icon-instagram", link: "#" }
+        { icon: "icon-facebook", link: "https://www.facebook.com" }
     ],
 
     information: [
-        { name: "Testimonials", link: "#" },
+        { name: "Testimonials", link: "resouces.html" },
         { name: "Ideal Client Profile", link: "company-overview.html#idealclient" },
     ],
 

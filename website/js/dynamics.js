@@ -59,7 +59,7 @@ function loadNavbar() {
 function loadFooter() {
 
   const socialHTML = FOOTER.social
-    .map(s => `<li class="ftco-animate"><a href="${s.link}"><span class="${s.icon}"></span></a></li>`)
+    .map(s => `<li ><a href="${s.link}"><span class="${s.icon}"></span></a></li>`)
     .join("");
 
   const infoHTML = FOOTER.information
