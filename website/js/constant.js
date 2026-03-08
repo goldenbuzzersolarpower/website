@@ -24,7 +24,7 @@ const FOOTER = {
     ],
 
     information: [
-        { name: "Testimonials", link: "resouces.html" },
+        { name: "Testimonials", link: "resources.html" },
         { name: "Ideal Client Profile", link: "company-overview.html#idealclient" },
     ],
 
