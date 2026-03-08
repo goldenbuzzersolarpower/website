@@ -5,7 +5,7 @@ var companyShort = "Golden Buzzer Solar Power Engineering Services";
 var items_company = ["top-nav"];
 
 const NAV_ITEMS = [
-    { name: "Home", link: "index.html", active: true },
+    { name: "Home", link: "index.html" },
     { name: "Services", link: "services.html" },
     { name: "Projects", link: "projects.html" },
     { name: "About", link: "index.html#aboutdiv" },

@@ -13,9 +13,15 @@ function loadNavbar() {
   favicon.type = 'image/png';
   document.head.appendChild(favicon);
 
+  const currentPage = window.location.pathname.split("/").pop();
+
   let navLinks = NAV_ITEMS.map(item => {
+
+    const linkPage = item.link.split("#")[0];
+    const isActive = linkPage === currentPage || (currentPage === "" && linkPage === "index.html");
+
     return `
-      <li class="nav-item ${item.active ? "active" : ""}">
+      <li class="nav-item ${isActive ? "active" : ""}">
         <a href="${item.link}" class="nav-link">${item.name}</a>
       </li>
     `;
@@ -24,12 +30,14 @@ function loadNavbar() {
   const navbarHTML = `
   <nav class="navbar navbar-expand-xl navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
+
       <a class="navbar-brand" href="index.html">
-       <span> <img src="images/logo.png" alt="SVG Icon" width="50"
-						height="auto"></span>
+        <span>
+          <img src="images/logo.png" alt="Logo" width="50" height="auto">
+        </span>
         ${company}
       </a>
-     
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -39,6 +47,7 @@ function loadNavbar() {
           ${navLinks}
         </ul>
       </div>
+
     </div>
   </nav>
   `;
