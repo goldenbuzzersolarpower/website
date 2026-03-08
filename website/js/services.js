@@ -76,7 +76,8 @@ function initializePackagesCarousel() {
 
 }
 
-document.addEventListener("DOMContentLoaded", loadPackages);
+// Uncomment this to include packages carousel on the services page. Make sure to also uncomment the corresponding div in services.html
+// document.addEventListener("DOMContentLoaded", loadPackages);
 
 const indicators = document.getElementById("services-indicators");
 const inner = document.getElementById("services-carousel-inner");

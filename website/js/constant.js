@@ -452,13 +452,7 @@ const PROJECTS = [
         location: "Tanay, Rizal",
         client: "Mr. Casa"
     },
-    {
-        image: "images/gbimages/projects/5.jpg",
-        capacity: "11 kWp",
-        system: "Hybrid Solar System",
-        location: "Subic, Zambales",
-        client: "Mr. June De Guzman"
-    },
+
     {
         image: "images/gbimages/projects/6.jpg",
         capacity: "5 kWp",
