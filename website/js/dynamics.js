@@ -111,8 +111,10 @@ ${linksHTML}
 <div class="block-23 mb-3">
 <ul>
 <li>
+<a href="contact.html">
 <span class="icon icon-map-marker"></span>
 <span class="text">${FOOTER.contact.address}</span>
+</a>
 </li>
 
 <li>
