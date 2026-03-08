@@ -117,3 +117,16 @@
 .package:hover .img {
     transform: scale(1.05);
 }
+
+.commercial-banner {
+    height: 200px;
+    max-height: 2200px;
+    width: 100%;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 10px;
+    cursor: zoom-in;
+}

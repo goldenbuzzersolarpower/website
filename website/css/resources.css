@@ -1,0 +1,108 @@
+.video-container {
+    position: relative;
+    display: flex;
+    /* Enable Flexbox */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    margin: 0 auto;
+    /* Center the container itself */
+    padding-bottom: 56.25%;
+    /* Aspect ratio for 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 80%;
+    background: beige;
+}
+
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#playlistWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+#playlistContainer {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+    max-width: 100%;
+    white-space: nowrap;
+    scrollbar-width: none;
+    /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none;
+    /* Hide scrollbar for Edge */
+}
+
+#playlistContainer::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for Chrome, Safari */
+}
+
+.video-item {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+    background: beige;
+    text-align: center;
+    width: 120px;
+}
+
+.video-item:hover {
+    transform: scale(1.1);
+    background: white;
+}
+
+.video-thumbnail {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.video-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.carousel-btn {
+    background: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.carousel-btn:hover {
+    background: #ccc;
+}
+
+#faqAccordion .card {
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}

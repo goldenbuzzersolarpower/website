@@ -87,8 +87,8 @@ ABOUT_US.forEach((about, index) => {
     <div class="carousel-item ${index === 0 ? "active" : ""}">
         <div class="row no-gutters d-flex">
             <div class="col-md-12 col-lg-12 d-flex align-self-stretch">
-                <div class="media block-12 services d-block text-center">
-                    <div class="row justify-content-center pb-3">
+                <div class="media block-12 services d-block text-center" style=" width:100%;">
+                    <div class="row justify-content-center pb-3" >
                         <div class="col-md-10 heading-section text-center">
                             <span class="subheading">more about us</span>
                             <h2 class="mb-4">${about.title}</h2>

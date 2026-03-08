@@ -7,10 +7,11 @@ var items_company = ["top-nav"];
 const NAV_ITEMS = [
     { name: "Home", link: "index.html", active: true },
     { name: "Services", link: "services.html" },
-    { name: "Projects", link: "#" },
+    { name: "Projects", link: "projects.html" },
     { name: "About", link: "index.html#aboutdiv" },
-    { name: "Resources", link: "#" },
-    { name: "Contact", link: "contact.html" }
+    { name: "Resources", link: "resources.html" },
+    { name: "Contact", link: "contact.html" },
+
 ];
 
 const FOOTER = {
@@ -32,9 +33,9 @@ const FOOTER = {
     links: [
         { name: "Home", link: "index.html" },
         { name: "Services", link: "services.html" },
-        { name: "Projects", link: "#" },
+        { name: "Projects", link: "projects.html" },
         { name: "About", link: "index.html#aboutdiv" },
-        { name: "Resources", link: "#" },
+        { name: "Resources", link: "resources.html" },
         { name: "Contact", link: "contact.html" }
     ],
 
@@ -260,6 +261,27 @@ const ABOUT_US = [
     `
     },
 
+
+    {
+        title: "INSTALLATION AND SUPPORT",
+        content: `
+      <ul style="list-style-type:none;padding:0;">
+        <li><Defined installation timelines based on site readiness, system scope,
+and equipment availability</li>
+    
+        <li>Structured execution for residential, commercial, and industrial
+installations</li>
+       
+        <li>Complete project turnover including as-built diagrams and system
+documentation</li>
+       
+        <li>Manufacturer warranties with local technical support</li>
+       
+        <li>24/7 system monitoring for supported installations</li>
+      </ul>
+    `
+    },
+
     {
         title: "CORE VALUES",
         content: `
@@ -403,4 +425,154 @@ const PACKAGE_IMAGES = [
     { image: "images/gbimages/packages/6.png" }
 ];
 
-export { company, companyShort, items_company, NAV_ITEMS, FOOTER, PARTNERS, EXECUTIVES, EXECUTIVE_DETAILS, ABOUT_US, COMPANY_OVERVIEW, CONTACT_DETAILS, SERVICES_DETAILS, PACKAGE_IMAGES };
+const PROJECTS = [
+    {
+        image: "images/gbimages/projects/1.jpg",
+        capacity: "6 kWp",
+        system: "Hybrid Solar System",
+        location: "Pilar, Bataan",
+        client: "Ms. Zulueta"
+    },
+    {
+        image: "images/gbimages/projects/2.jpg",
+        capacity: "5 kWp",
+        system: "Hybrid Solar System",
+        location: "Biñan, Laguna",
+        client: "Mr. Pablo"
+    },
+    {
+        image: "images/gbimages/projects/3.jpg",
+        capacity: "10 kWp",
+        system: "Hybrid Solar System",
+        location: "Cavite",
+        client: "Mrs. Sanchez"
+    },
+    {
+        image: "images/gbimages/projects/4.jpg",
+        capacity: "5.6 kWp",
+        system: "Off- Grid System",
+        location: "Tanay, Rizal",
+        client: "Mr. Casa"
+    },
+    {
+        image: "images/gbimages/projects/5.jpg",
+        capacity: "11 kWp",
+        system: "Hybrid Solar System",
+        location: "Subic, Zambales",
+        client: "Mr. June De Guzman"
+    },
+    {
+        image: "images/gbimages/projects/6.jpg",
+        capacity: "5 kWp",
+        system: "Hybrid Solar System",
+        location: "Biñan, Laguna",
+        client: "Mrs. Domingo"
+    }
+];
+
+const COMMERCIAL_PROJECTS = [
+    {
+        banner: "images/gbimages/commercial_projects/1.jpeg",
+
+        details: {
+            capacity: "100 kWp",
+            location: "Tarlac",
+            tunnelVent: "2 houses",
+            farmScale: "30,000 to 45,000 Birds",
+            client: "Noel Salazar"
+        },
+
+        highlights: [
+            "Precision Mounting",
+            "Workforce Excellence",
+            "Environmentally Conscious"
+        ],
+
+        summary: `This Tarlac project exemplifies a scalable, proven model for mid-size
+tunnel-ventilated poultry farms in the Philippines. It demonstrates how solar PV
+delivers audited, high-ROI results in real farm conditions—cutting costs,
+boosting resilience, and promoting greener practices.`,
+
+        gallery: [
+            "images/gbimages/commercial_projects/1-1.jpeg",
+            "images/gbimages/commercial_projects/1-2.jpeg",
+
+        ]
+    },
+
+    {
+        banner: "images/gbimages/commercial_projects/2.png",
+
+        details: {
+            capacity: "4 MW",
+            location: "Hermosa, Bataan",
+            lotArea: "5 Hectares",
+            homesPowered: "1,600",
+            client: "Chinese Company"
+        },
+
+        highlights: [
+            "Precision Mounting",
+            "Workforce Excellence",
+            "Environmentally Conscious"
+        ],
+
+        summary: `A 4-megawatt (MW) renewable energy power project in Hermosa, Bataan
+aimed at supporting local and regional power supply diversification.
+The installation contributes to broader clean energy initiatives by
+providing sustainable power generation and strengthening energy
+resilience in the region.`,
+
+        gallery: [
+            "images/gbimages/commercial_projects/2-1.jpeg",
+            "images/gbimages/commercial_projects/2-2.jpeg",
+            "images/gbimages/commercial_projects/2-3.jpeg"
+
+        ]
+    }
+];
+
+const TESTIMONIAL_VIDEOS = [
+
+    { id: "TZqF7Bd43FA", title: "Testimonial  1" },
+    { id: "yRJSiMdVA5Y", title: "Testimonial  2" },
+    { id: "KRK4gjW5C2k", title: "Testimonial  3" },
+    { id: "R3zomiZv3Xk", title: "Testimonial  4" },
+];
+
+const FAQS = [
+    {
+        question: "How do solar panels work?",
+        answer: "Photovoltaic (PV) cells convert sunlight into direct current (DC) electricity, which an inverter converts to alternating current (AC) for household use."
+    },
+    {
+        question: "What is the difference between On-Grid and Off-Grid?",
+        answer: "On-grid (grid-tied) systems are connected to the utility grid, allowing for net metering, while off-grid systems operate independently with battery storage."
+    },
+    {
+        question: "Do solar panels work on cloudy or rainy days?",
+        answer: "Yes, but with reduced efficiency. They still produce power in low-light conditions."
+    },
+    {
+        question: "What is Net Metering?",
+        answer: "It is a billing mechanism that allows solar owners to feed excess electricity back to the grid."
+    },
+    {
+        question: "Do I have power during a blackout?",
+        answer: "Not automatically. Standard grid-tied systems shut down for safety. A hybrid system with batteries is required for backup power."
+    },
+    {
+        question: "How long do solar panels last?",
+        answer: "Panels are generally warranted for 25–30 years and can continue to produce 80–90% of their rated capacity after 20 years."
+    },
+    {
+        question: "How much maintenance is required?",
+        answer: "Very little. Panels usually just need occasional cleaning to remove dust or debris."
+    },
+    {
+        question: "How many panels do I need?",
+        answer: "The number depends on your electricity consumption, roof size, and available sunlight, typically calculated by a professional installer."
+    }
+];
+
+export { company, companyShort, items_company, NAV_ITEMS, FOOTER, PARTNERS, EXECUTIVES, EXECUTIVE_DETAILS, ABOUT_US, COMPANY_OVERVIEW, CONTACT_DETAILS, SERVICES_DETAILS, PACKAGE_IMAGES, PROJECTS, COMMERCIAL_PROJECTS, TESTIMONIAL_VIDEOS, FAQS };
