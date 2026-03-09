@@ -14,8 +14,8 @@ function loadExecutive() {
     .join("");
 
   document.getElementById("executive-content").innerHTML = `
-<section class="ftco-section ftco-no-pb ftco-no-pt">
-<div class="container" >
+<section class="ftco-section ftco-no-pb ftco-no-pt ">
+<div class="container";">
 
 <div class="row">
 
@@ -29,7 +29,7 @@ background-image:url(${exec.image});
 background-position:center top;
 background-size:cover;
 background-repeat:no-repeat;
-height:100%;
+min-height:500px;
 cursor: zoom-in;
 ">
 </div>
