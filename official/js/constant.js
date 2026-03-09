@@ -117,7 +117,7 @@ const EXECUTIVES = [
     {
         name: "Ismael C. Nabong",
         position: "Director",
-        image: "images/gbimages/executives/director-1.png",
+        image: "images/gbimages/executives/director.png",
         link: "executive.html?id=director"
     },
     {
@@ -149,7 +149,7 @@ const EXECUTIVE_DETAILS = {
     president: {
         name: "Pee-Jay M. Alfaro",
         position: "President & CEO",
-        image: "images/gbimages/executives/presandceo-1.png",
+        image: "images/gbimages/executives/presandceo-2.png",
         message: [
             `At <strong>Golden Buzzer Solar Power Engineering Services</strong>, our vision is clear: to provide clean, reliable, and sustainable energy solutions that power progress and protect the future.`,
             `As energy demands continue to grow, we believe solar power is no longer just an option—it is a responsibility. Through innovation, engineering excellence, and responsible project execution, we transform sunlight into efficient, long-term energy solutions for homes, businesses, and large-scale developments.`,
@@ -162,7 +162,7 @@ const EXECUTIVE_DETAILS = {
     director: {
         name: "Ismael C. Nabong",
         position: "Director",
-        image: "images/gbimages/executives/director-1.png",
+        image: "images/gbimages/executives/director-2.png",
         message: [
             `At <strong>Golden Buzzer Solar Power Engineering Services</strong>, strong leadership and clear direction are the foundations of sustainable growth.`,
             `As Director, I have full confidence in the capability, vision, and leadership of our President & CEO, Pee-Jay Alfaro. His strategic mindset and commitment to excellence continue to guide the company toward innovation, operational strength, and long-term impact in the renewable energy sector.`,
@@ -175,7 +175,7 @@ const EXECUTIVE_DETAILS = {
     vicepresident: {
         name: "Joanne B. Banua",
         position: "Vice President",
-        image: "images/gbimages/executives/vicepresident.png",
+        image: "images/gbimages/executives/vicepresident-1.png",
         message: [
             `At <strong>Golden Buzzer Solar Power Engineering Services</strong>, our work is guided by a clear commitment: to turn sustainable energy into practical, high-impact solutions.`,
             `As Vice President, I focus on ensuring that innovation translates into performance. From project planning to execution, we prioritize smart engineering, operational efficiency, and uncompromising quality—so every solar system we deliver is built to perform reliably and sustainably over the long term.`,
@@ -188,7 +188,7 @@ const EXECUTIVE_DETAILS = {
     cbdo: {
         name: "John Patrick V. Bernardino",
         position: "Chief Business Development Officer",
-        image: "images/gbimages/executives/cbdo.png",
+        image: "images/gbimages/executives/cbdo-1.png",
         message: [
             `At <strong>Golden Buzzer Solar Power Engineering Services</strong>, we believe that energy is more than power — it is a catalyst for progress, sustainability, and shared prosperity.`,
             `As Chief of Business Development, my commitment is to build strong partnerships, unlock new opportunities, and drive innovative solutions that accelerate our mission of delivering reliable and clean solar energy to communities and industries.`,

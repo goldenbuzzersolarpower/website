@@ -15,14 +15,27 @@ function loadExecutive() {
 
   document.getElementById("executive-content").innerHTML = `
 <section class="ftco-section ftco-no-pb ftco-no-pt">
-<div class="container">
+<div class="container" >
 
 <div class="row">
 
 <div class="col-md-6 d-flex">
+
+<a href="${exec.image}" class="executive-zoom w-100">
+
 <div class="p-md-5 img img-2 d-flex justify-content-center align-items-center"
-style="background-image: url(${exec.image});">
+style="
+background-image:url(${exec.image});
+background-position:center top;
+background-size:cover;
+background-repeat:no-repeat;
+height:100%;
+cursor: zoom-in;
+">
 </div>
+
+</a>
+
 </div>
 
 <div class="col-md-6 py-md-5 pb-5 wrap-about pb-md-5">
@@ -43,6 +56,13 @@ ${messageHTML}
 </div>
 </section>
 `;
+
+  $('.executive-zoom').magnificPopup({
+    type: 'image',
+    gallery: {
+      enabled: false
+    }
+  });
 
 }
 
