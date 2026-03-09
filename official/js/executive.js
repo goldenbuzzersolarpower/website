@@ -30,6 +30,7 @@ background-position:center top;
 background-size:cover;
 background-repeat:no-repeat;
 min-height:500px;
+height: 100%;
 cursor: zoom-in;
 ">
 </div>
