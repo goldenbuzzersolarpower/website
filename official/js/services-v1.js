@@ -1,4 +1,4 @@
-console.log("services.js loaded");
+console.log("services-v1.js loaded");
 import { PARTNERS, SERVICES_DETAILS, PACKAGE_IMAGES } from "./constant.js";
 
 
