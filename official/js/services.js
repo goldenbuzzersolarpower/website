@@ -147,11 +147,11 @@ function loadPartners() {
 <img src="${p.image}" class="img-fluid">
 
 <div class="text" style="max-height: 100%; overflow-y: auto;">
-<span><h2 style="color:white;">${p.name}</h2></span>
+<span><h2 style="color: black;"><strong>${p.name}</strong></h2></span>
 
 <h3><a href="#">${p.title}</a></h3>
 
-<p style="color: beige; padding-left:10px; text-align: justify;">
+<p style="color: black; padding-left:10px; text-align: justify;">
 <strong>Why We Chose Them:</strong><br>
 ${p.why}
 <br><br>

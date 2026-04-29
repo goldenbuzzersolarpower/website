@@ -8666,6 +8666,47 @@ h3.vr {
       .project .text {
         opacity: 1;
         bottom: 0; } }
+        /* The container for the partner/project */
+.project {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; /* Changes the arrow to a hand pointer */
+}
+
+/* The text overlay */
+.project .text {
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none; /* Allows clicks to pass through to the zoom link below */
+}
+
+/* Show text on hover (Desktop) or when tapped (Mobile) */
+.project:hover .text, 
+.project:active .text {
+    opacity: 1;
+    pointer-events: auto; /* Allows scrolling the text once visible */
+}
+
+/* The Zoom Cursor for the popup link */
+.image-popup {
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
+}
+
+/* Mobile Specific Fix: Ensure text stays hidden until tap */
+@media (max-width: 767.98px) {
+    .about-image {
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    
+    /* Optional: If you want to hide the text completely on mobile 
+       even if they tap, use display: none; instead of opacity */
+    .project .text {
+        opacity: 0;
+    }
+}
   .project .icon {
     position: absolute;
     top: -50px;
