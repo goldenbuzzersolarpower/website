@@ -48,7 +48,7 @@ const FOOTER = {
 const PARTNERS = [
     {
         name: "Thornova Solar",
-        image: "images/gbimages/thornova.jpg",
+        image: "images/gbimages/new_thornova.jpg",
         title: "Solar Partners",
         why: `Not every project requires premium pricing — but every project requires reliability.
 Thornova Solar is used when balanced performance is needed without compromising system stability or lifecycle expectations.`,
@@ -315,7 +315,7 @@ const COMPANY_OVERVIEW = [
 
 
 const CONTACT_DETAILS = {
-    image: "images/gbimages/office.jpeg",
+    image: "images/gbimages/new_office.jpg",
 
     address: "2nd Flr. Unit D. Golden Buzzer Building E. Monserrate corner J. Cabarrus St. BF Homes Parañaque 1720 City Metro Manila.",
 
