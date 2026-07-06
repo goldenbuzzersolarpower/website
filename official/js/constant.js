@@ -462,24 +462,24 @@ const PROJECTS = [
     },
     {
         image: "images/gbimages/projects/8.jpg",
-        capacity: "-",
-        system: "-",
-        location: "-",
-        client: "-"
+        capacity: "8kWP",
+        system: "Hybrid Solar System",
+        location: "Candelaria Quezon",
+        client: "Leo Nabong"
     },
         {
         image: "images/gbimages/projects/9.jpg",
-        capacity: "-",
-        system: "-",
-        location: "-",
-        client: "-"
+        capacity: "10.63kWp",
+        system: "Hybrid Solar System",
+        location: "Marilao, Bulacan",
+        client: "Mr. Edward Mercado"
     },
         {
         image: "images/gbimages/projects/10.jpg",
-        capacity: "-",
-        system: "-",
-        location: "-",
-        client: "-"
+        capacity: "8.8kWP",
+        system: "Hybrid Solar System",
+        location: "Ayala, Alabang",
+        client: "Ayala, Alabang"
     },
 ];
 
