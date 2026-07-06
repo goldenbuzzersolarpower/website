@@ -459,7 +459,28 @@ const PROJECTS = [
         system: "Hybrid Solar System",
         location: "Biñan, Laguna",
         client: "Mrs. Domingo"
-    }
+    },
+    {
+        image: "images/gbimages/projects/8.jpg",
+        capacity: "-",
+        system: "-",
+        location: "-",
+        client: "-"
+    },
+        {
+        image: "images/gbimages/projects/9.jpg",
+        capacity: "-",
+        system: "-",
+        location: "-",
+        client: "-"
+    },
+        {
+        image: "images/gbimages/projects/10.jpg",
+        capacity: "-",
+        system: "-",
+        location: "-",
+        client: "-"
+    },
 ];
 
 const COMMERCIAL_PROJECTS = [
