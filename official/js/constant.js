@@ -47,13 +47,14 @@ const FOOTER = {
 
 const PARTNERS = [
     {
-        name: "Thornova Solar",
-        image: "images/gbimages/new_thornova.jpg",
+        name: "MBL160 Sungrow Battery",
+        image: "images/gbimages/Sungrow3.png",
         title: "Solar Partners",
-        why: `Not every project requires premium pricing — but every project requires reliability.
-Thornova Solar is used when balanced performance is needed without compromising system stability or lifecycle expectations.`,
-        protects: `Paying for efficiency gains that do not translate to usable energy, and
-Budget-driven compromises that reduce long-term system lifespan.`
+        why: `Safe, reliable, and future-ready energy storage solution with long battery life, high efficiency, and scalable capacity.
+            Its advanced LFP technology ensures stable performance and enhanced safety, while its modular design allows easy system expansion as energy
+            demands grow, making it a smart long-term investment for solar power systems`,
+        protects: `Power interruptions, rising electricity costs, premature battery replacement, and expensive system upgrades, while
+            allowing easy and cost-effective future solar expansion.`
     },
 
     {
@@ -73,11 +74,13 @@ Budget-driven compromises that reduce long-term system lifespan.`
     },
 
     {
-        name: "AE Solar",
-        image: "images/gbimages/AESolar.jpeg",
+        name: "Pylontech Fidus Plus LiFePO4",
+        image: "images/gbimages/Pylontech1.png",
         title: "Solar Partners",
-        why: `AE Solar modules are selected for environments where heat, humidity, and mounting stress are significant risk factors.`,
-        protects: `Hot-spot formation, Moisture-related degradation, and premature panel replacement due to environmental stress.`
+        why: `Provide efficient energy storage, smart BMS protection and excellent compatibility with leading solar inverters. Trusted
+            worldwide, Pylontech offers dependable performance, scalability, and long-term value for residential, commercial, and industrial Solar power systems.`,
+        protects: `Designed for future scalability, this system minimizes the need for battery replacement and major system reconfiguration as energy demand
+            increases, allowing seamless and cost-efficient expansion of your solar system.`
     },
     {
         name: "SUNGROW",
